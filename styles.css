@@ -49,3 +49,13 @@
   color: #777;
   text-shadow: 1px 1px 1px #999;
 }
+
+footer {
+  background-color: #51a2177a;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-family: fantasy;
+}

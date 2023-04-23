@@ -17,3 +17,11 @@ cocktails.forEach((cocktail, index) => {
     })
     .catch((error) => console.log(error));
 });
+
+const scrollToBottomButton = document.querySelector('a[href="#footer"]');
+                const footer = document.querySelector('#footer');
+              
+                scrollToBottomButton.addEventListener('click', (event) => {
+                  event.preventDefault();
+                  footer.scrollIntoView({ behavior: 'smooth' });
+                });
