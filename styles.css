@@ -59,3 +59,11 @@ footer {
 footer p {
   font-family: fantasy;
 }
+
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .ppl .img2,
+  .ppl .img3 {
+    display: none;
+  }
+}
