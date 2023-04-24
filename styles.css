@@ -1,7 +1,6 @@
 .logo {
     border-radius: 50%;
     min-height: 20%;
-    
 }
 
 body {
@@ -33,6 +32,7 @@ body {
   
   .nav-item .nav-link:hover {
     background-color: #f1cd7d;
+    border-radius: 30px;
   }
 
 .ppl {
@@ -40,12 +40,11 @@ body {
   background-image: url(Assets/principal\ 2.jpg);
   background-position: absolute;
   background-size: cover;
-
 }
 
 .title h1 {
   font-family: 'Sedgwick Ave Display';
-  font-size: 80px;
+  font-size: 120px;
   transform:rotate(-10deg);
   color:#000000ec;
   text-shadow: 2px 2px 2px #ecec40;
@@ -76,6 +75,7 @@ body {
 #contcard {
   background-color: #0f105e2d;
   background-image: url(assets/carta\ bebidas.jpg);
+    
 }  
 
 .card-colu {
@@ -84,22 +84,46 @@ body {
 
 .card {
   box-shadow: 5px 5px 10px lightgray;
-  border-radius: 60px;
-
 }
 
 
 footer {
   background-color: #f8d8b0;
   box-shadow: 8px 10px 12px rgba(167, 110, 26, 0.897)
-  text-align: center;
 }
-
 
 
 @media screen and (min-width: 360px) and (max-width: 767px) {
   .ppl .img2,
   .ppl .img3 {
     display: none;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 360px) {
+  .col-sm-8 {
+    width: 100%;
+    text-align: center;
+  }
+  .img-fluid {
+    border: 3px solid #333;
+  }
+}
+
+@media (max-width: 768px) {
+  .title h1 {
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 576px) {
+  .title h1 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 375px) {
+  .title h1 {
+    font-size: 40px;
   }
 }
