@@ -30,11 +30,10 @@ body {
   a.navbar-brand {
     color: #454545
   }
-
-.imgppl{    
-  clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
- 
-}  
+  
+  .nav-item .nav-link:hover {
+    background-color: #f1cd7d;
+  }
 
 .ppl {
   
@@ -81,7 +80,11 @@ body {
 
 .card-colu {
   background-color: #9999996b;
+}
 
+.card {
+  box-shadow: 5px 5px 10px lightgray;
+  border-radius: 60px;
 
 }
 
@@ -91,11 +94,6 @@ footer {
   box-shadow: 8px 10px 12px rgba(167, 110, 26, 0.897)
   text-align: center;
 }
-
-footer p {
-  font-family: fantasy;
-}
-
 
 
 
