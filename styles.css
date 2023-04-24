@@ -59,6 +59,22 @@ body {
   text-shadow: 1px 1px 1px #e60000;
 }
 
+.subtitle h3 {
+  font-family:'Kanit', sans-serif;
+  font-size: 40px;
+  font-style: oblique;
+  color: #e60000;
+  text-shadow: 2px 2px 2px #ecec40;
+  font-weight: 200;
+}
+
+.subtitle h5 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  font-style: italic;
+  color:rgb(74, 78, 82);
+}
+
 #contcard {
   background-color: #0f105e2d;
   background-image: url(assets/carta\ bebidas.jpg);
