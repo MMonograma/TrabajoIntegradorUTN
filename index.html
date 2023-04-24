@@ -12,7 +12,7 @@
   <title>Document</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-sm navbar-light" id="neubar">
+  <nav class="navbar fixed-top navbar-expand-sm navbar-light" id="neubar"> <!--fixed top navbar y elimine boton home-->
     <div class="container">
       <a class="navbar-brand " href="#"><img src="Assets/Logo.png" height="80" width="80" class="logo"/></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,9 +21,6 @@
   
       <div class=" collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ms-auto ">
-          <li class="nav-item">
-            <a class="nav-link mx-2 active" aria-current="page" href="#">Home</a>
-          </li>
           <li class="nav-item">
             <a class="nav-link mx-2" href="#">Carta</a>
           </li>
@@ -35,24 +32,23 @@
     </div>
   </nav>
   <main>
-    <div class="container-fluid ppl">
-      <div class="row justify-content-between">
-        <div class="col-xl-3 col-lg-2 col-md-2 my-5">
-          <img src="Assets/Imagen principal.jpg" alt="Imagen 1" class="img-fluid rounded-circle img1">
-        </div>
-        <div class="col-xl-6 col-md-4 content-fit title my-5 py-5" style="width: auto;">
-          <h1 class="text-center">Veni a divertirte!!!</h1><br><h3 class="text-center">cuando termines te espera una birra fresca</h3>
-        </div>
-        <div class="col-xl-3 col-lg-2 col-md-2 img2 my-5">
-          <img src="Assets/Canchas.jpg" alt="Imagen 2" class="img-fluid rounded-circle">
-          
-        </div>
-        <div class="col-xl-4 col-lg-3 col-md-2 mx-auto img3"><img src="Assets/bar.jpg" alt="Imagen 3" class="img-fluid rounded-circle "></div>
+     <div class="container-fluid ppl">
+    <div class="row justify-content-between">
+      <div class="col-xl-3 col-md-2 my-5">
+        <img src="Assets/Imagen principal.jpg" alt="Imagen 1" class="img-fluid rounded-circle">
       </div>
+      <div class="col-xl-6 col-md-4 class=col content-fit title my-5 py-5" style="width: auto;">
+        <h1 class="text-center">Veni a divertirte!!!</h1><br><h3 class="text-center">cuando termines te espera una birra fresca</h3>
       </div>
-      <div class="container"> 
-      <div class="row justify-content-center my-5"><h2 class="carta">Carta de Bebidas</h2></div>
-                          <div class="card mb-3" style="max-width: 540px;"> <!--Lista de tragos con imagenes de los mismos y descripcion-->
+      <div class="col-xl-3 col-md-2  my-5">
+        <img src="Assets/Canchas.jpg" alt="Imagen 2" class="img-fluid rounded-circle">
+        
+      </div>
+      <div class="col-xl-4 col-lg-3 col-md-3 mx-auto "><img src="Assets/bar.jpg" alt="Imagen 3" class="img-fluid rounded-circle "></div>
+    </div>
+    </div>
+                <div class="container-carta" id="contcard"> <!--Lista de tragos con imagenes de los mismos y descripcion-->
+                          <div class="card mb-3" style="max-width: 540px;"> 
                             <div class="row g-0">
                               <div class="col-md-4">
                                 <img id="cocktail-image1" src="" class="img-fluid rounded-start" alt="">
@@ -120,7 +116,7 @@
                   </div>  
                   
                   
-               <!--pie de pagina con datos de contacto-->
+                                         <!--pie de pagina con datos de contacto-->
                     <footer id="footer">
                       <div class="container">
                         <div class="row">
