@@ -59,6 +59,12 @@ body {
   background-image: url(assets/carta\ bebidas.jpg);
 }  
 
+.card-colu {
+  background-color: #9999996b;
+
+
+}
+
 
 footer {
   background-color: #51a2177a;
@@ -69,6 +75,8 @@ footer {
 footer p {
   font-family: fantasy;
 }
+
+
 
 
 @media screen and (min-width: 360px) and (max-width: 767px) {
