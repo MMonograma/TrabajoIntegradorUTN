@@ -25,3 +25,12 @@ const scrollToBottomButton = document.querySelector('a[href="#footer"]');
                   event.preventDefault();
                   footer.scrollIntoView({ behavior: 'smooth' });
                 });
+
+ const scrollToMiddleButton = document.querySelector('a[href="#carta"]');
+                const middleSection = document.querySelector('#carta');
+                
+                scrollToMiddleButton.addEventListener('click', (event) => {
+                  event.preventDefault();
+                  middleSection.scrollIntoView({ behavior: 'smooth' });
+                });
+                
