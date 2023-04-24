@@ -38,20 +38,25 @@ body {
 
 .ppl {
   
-  background-image: url(Assets/wave.svg);
+  background-image: url(Assets/principal\ 2.jpg);
   background-position: absolute;
   background-size: cover;
 
 }
 
 .title h1 {
-  color:#fae8d2;
-  text-shadow: 2px 2px 2px #993131;
+  font-family: 'Sedgwick Ave Display';
+  font-size: 80px;
+  transform:rotate(-10deg);
+  color:#000000ec;
+  text-shadow: 2px 2px 2px #ecec40;
 }
 
 .title h3 {
-  color: #0697a1;
-  text-shadow: 1px 1px 1px #999;
+  font-family: 'Permanent Marker';
+  font-size: 30px;
+  color: #000000e5;
+  text-shadow: 1px 1px 1px #e60000;
 }
 
 #contcard {
@@ -67,8 +72,8 @@ body {
 
 
 footer {
-  background-color: #51a2177a;
-  padding: 20px;
+  background-color: #f8d8b0;
+  box-shadow: 8px 10px 12px rgba(167, 110, 26, 0.897)
   text-align: center;
 }
 
