@@ -82,8 +82,8 @@ body {
 
 .copa h1 {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color:#080807
-  text-shadow:dimgray
+  color:#080807;
+  text-shadow:2px 2px 2px dimgray;
 }
 
 #contcard {
