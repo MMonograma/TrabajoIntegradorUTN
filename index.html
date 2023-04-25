@@ -16,8 +16,12 @@
   <title>Document</title>
 </head>
 <body>
-  <nav class="navbar fixed-top navbar-expand-sm navbar-light" id="neubar"> <!--fixed top navbar y elimine boton home-->
-    <div class="container">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <div class="container-navbar mx-auto" style="max-width: 1000px;">
+          <nav class="navbar fixed-top navbar-expand-sm navbar-light" id="neubar"><!--fixed top navbar y elimine boton home-->
+            <div class="container">
       <a class="navbar-brand " href="#"><img src="Assets/Logo.png" height="80" width="80" class="logo"/></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -35,37 +39,44 @@
       </div>
     </div>
   </nav>
+      </div>
+    </div>
+  </div>
+</div>
   <main>
      <div class="container-fluid ppl">
-    <div class="row d-flex justify-content-sm-center">
-      <div class="col-xl-3 col-lg-2 col-md-2 col-sm-8  my-5">
-        <img src="Assets/Imagen principal.jpg" alt="Imagen 1" class="img-fluid rounded-circle">
+    <div class="row justify-content-center">
+      <div class="col-xl-3 col-lg-2 col-md-2 my-5">
+        <img src="Assets/Imagen principal.jpg" alt="Imagen 1" class="img-fluid img1 rounded-circle" style="width: 85%; height: auto;">
       </div>
-      <div class="col-xl-6 col-lg-4 col-md-3 title my-5 py-5" style="width: auto;">
-        <h1 class="text-center">Veni a </h1><br><h1 class="text-center">divertirte!!!</h1><br><h3 class="text-center">cuando termines</h3><br><h3 class="text-center">te espera una birra fresca</h3>
+      <div class="col-xl-6 col-lg-3 col-md-3  title my-5 py-5">
+        <h1 class="text-center">Veni a </h1><br>
+        <h1 class="text-center">divertirte!!!</h1><br>
+        <h3 class="text-center">cuando termines</h3><br>
+        <h3 class="text-center">te espera una birra fresca</h3>
       </div>
       <div class="col-xl-3 col-lg-2 col-md-2 my-5">
-        <img src="Assets/Canchas.jpg" alt="Imagen 2" class="img-fluid img2 rounded-circle">
+        <img src="Assets/bar.jpg" alt="Imagen 2" class="img-fluid img2 rounded-circle" style="width: 85%; height: auto;">
         
       </div>
-      <div class="col-xl-3 col-lg-2 col-md-2 mx-auto "><img src="Assets/bar.jpg" alt="Imagen 3" class="img-fluid img3 rounded-circle "></div>
-    </div>
+      </div>
     </div>
     <!--Subtitulo- Presentacion  img canchas-->
-    <div class="container-fluid">
-      <div class="row text-center">
-        <h1>Recreación</h1>
-        <div class="col-md-6 subtitle">
+    <div class="container-fluid canchas-cont">
+      <div class="row text-center"><h1>Recreación</h1></div>
+        <div class="row align-items-center">
+        <div class="col-xl-6 col-lg-4 col-md-4 col-sm-2 text-center subtitle">
           <h3>Mini basket</h3><br><h5>Jueguen en la cancha con el mejor estilo!!</h5>
         </div>
-        <div class="col-md-6 p-2">
-          <img src="Assets/14970321117199.jpg" alt="">
-        </div>
-        <div class="row">
-          <div class="col"><img src="" alt=""></div>
-          <div class="col subtitle"><h3>Padel</h3><br><h5>Podes elegir cancha con o sin techo!</h5></div>
+        <div class="col-xl-6 col-lg-4 col-md-4 col-sm-2">
+          <img src="Assets/Basquet.jpg" alt="" class="img-fluid img-canchas">
         </div>
       </div>
+        <div class="row align-items-center">
+          <div class="col-xl-6 col-lg-4 col-md-4 col-sm-2"><img src="Assets/padeltecho.jpg" alt="" class="img-fluid img-canchas"></div>
+          <div class="col-xl-6 col-lg-4 col-md-4 col-sm-2  text-center subtitle"><h3>Padel</h3><br><h5>Podes elegir cancha con o sin techo!</h5></div>
+        </div>
+      
     </div>
     <!--Lista de tragos con imagenes de los mismos y descripcion-->
     <section id="carta"> 
