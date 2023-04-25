@@ -80,6 +80,11 @@ body {
   color:rgb(74, 78, 82);
 }
 
+.titleR h1 {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:#080807;
+  text-shadow:2px 2px 2px dimgray;}
+
 .copa h1 {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color:#080807;
